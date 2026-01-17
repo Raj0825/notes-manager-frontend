@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:8080/api/notes";
+const API_URL = "https://notes-manager-backend-7yp6.onrender.com/api/notes";
+
 
 function loadNotes() {
     fetch(API_URL)
